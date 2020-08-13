@@ -1,7 +1,7 @@
-# @summary 
+# @summary
 #   Defines cache_dir entries for a squid server.
 # @see
-#   http://www.squid-cache.org/Doc/config/cache_dir/ 
+#   http://www.squid-cache.org/Doc/config/cache_dir/
 # @example
 #   squid::cache_dir { '/data':
 #     type           => 'ufs',
@@ -14,17 +14,17 @@
 #   cache_dir ufs 15000 32 256 min-size=32769
 #   endif
 #
-# @param type 
+# @param type
 #   The type of cache, e.g ufs. defaults to `ufs`.
-# @param path 
+# @param path
 #   Defaults to the namevar, file path to  cache.
-# @param options 
+# @param options
 #   String of options for the cache. Defaults to empty string.
-# @param process_number 
+# @param process_number
 #   If specfied as an integer the cache will be wrapped
 #   in a `if $proceess_number` statement so the cache will be used by only
 #   one process. Default is undef.
-# @param manage_dir 
+# @param manage_dir
 #   If true puppet will attempt to create the
 #   directory, if false you will have to create it yourself. Make sure the
 #   directory has the correct owner, group and mode. Defaults to true.

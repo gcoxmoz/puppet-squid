@@ -1,6 +1,6 @@
-# @summary 
+# @summary
 #   Defines cache entries  for a squid server.
-# @see 
+# @see
 #   http://www.squid-cache.org/Doc/config/cache/
 # @example
 #   squid::cache { 'our_network_hosts_acl':

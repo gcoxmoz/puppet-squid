@@ -1,4 +1,4 @@
-# @summary 
+# @summary
 #   This class manages Squid parameters
 # @api private
 class squid::params {

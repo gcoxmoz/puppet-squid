@@ -1,7 +1,7 @@
-# @summary 
+# @summary
 #   Defines snmp_access entries for a squid server.
 # @see
-#   http://www.squid-cache.org/Doc/config/snmp_access/ 
+#   http://www.squid-cache.org/Doc/config/snmp_access/
 # @example
 #   squid::snmp_access { 'monitoring hosts':
 #     action => 'allow',
